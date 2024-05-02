@@ -3,12 +3,12 @@
 }
 
 .nav-link{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-right: 20px;
 }
 
 .nav-link:hover {
-  color: rgb(125, 125, 255);
+  color: rgb(145, 145, 228);
 }
 
 .bg-white {
@@ -56,7 +56,7 @@
   }
 
   .navbar-collapse {
-    margin: 40px;
+    margin: 80px;
     height: 30vh;
     text-align: center;
   }
@@ -71,6 +71,8 @@
 
   .nav-link {
     margin: 0px;
+    font-size: 1.4rem;
+    margin-top: -1px;
   }
   
   .navbar-toggler {

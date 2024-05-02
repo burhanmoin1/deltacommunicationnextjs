@@ -2,6 +2,9 @@
   width: 8px; /* Width for vertical scrollbars, height for horizontal scrollbars */
 }
 
+.body {
+  overflow-x: hidden;
+}
 
 /* Style the scrollbar track */
 ::-webkit-scrollbar-track {

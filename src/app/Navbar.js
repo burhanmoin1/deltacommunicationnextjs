@@ -45,6 +45,9 @@ function DeltaNavbar() {
           <Link href="/" className="nav-link">Home</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Nav.Link className='cursor-link'>
+              <Link href="/aboutus" className="nav-link">Services</Link> {/* Add a specific class to the "Home" link */}
+            </Nav.Link>
+            <Nav.Link className='cursor-link'>
               <Link href="/support" className="nav-link">Support</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Nav.Link className='cursor-link'>

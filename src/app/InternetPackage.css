@@ -1,5 +1,5 @@
 .InternetPackage{
-  height: 100vh;
+  height: auto;
   background-color: rgba(221, 213, 213, 0.2);
   display: flex;
   margin: 20px;
@@ -11,8 +11,16 @@
 
 .ServicesHeading {
   margin: 40px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 3.8rem;
+}
+
+.PremiumServices {
+  background-color: white;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
 }
 
 .service {
@@ -20,10 +28,17 @@
   padding: 60px;
   height: 50vh;
   background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, .2);
 }
 
 .service h2 {
   font-size: 1.4rem;
+}
+
+.GeneralHeading {
+  margin: 20px;
+  
 }
 
 .needleinitial {
@@ -41,14 +56,15 @@
 }
 
 .signupservice {
-  background-color: rgb(194, 255, 255);
+  background-color: #bdb9cc;
   padding: 8px;
+  font-size: 1.4rem;
   color: black;
   border-radius: 10px;
 }
 
 .signupservice:hover {
-  background-color: rgb(229, 245, 245, .3);
+  background-color: rgba(147, 255, 255, 0.3);
 }
 
 @media (max-width: 767.98px) {
