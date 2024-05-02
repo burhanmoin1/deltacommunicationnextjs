@@ -1,0 +1,85 @@
+.dcn-logo {
+  max-width: 80px;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: rgb(125, 125, 255);
+}
+
+.bg-white {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic; 
+}
+
+.icons {
+  font-weight: 900;
+  padding: 20px;
+  margin-left: 40px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.icons:hover {
+  opacity: .6;
+}
+
+.register-button {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.home-link {
+  text-decoration: none; /* Remove the underline */
+  color: var(--bs-nav-link-color);
+}
+
+.nav-link{
+  margin-left: 10px;
+}
+
+.bg-white {
+  margin: 16px 0;
+  
+}
+
+@media (max-width: 767.98px) {
+
+  .register-button {
+    margin-left: 0px;
+  }
+
+  .navbar-collapse {
+    margin: 40px;
+    height: 30vh;
+    text-align: center;
+  }
+
+  .dcn-logo {
+    margin-left: 10px;
+  }
+
+  .icons {
+    margin: 0px;
+  }
+
+  .nav-link {
+    margin: 0px;
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+  }
+
+  .icons {
+    font-weight: 900;
+    padding: 40px;
+  }
+  
+}

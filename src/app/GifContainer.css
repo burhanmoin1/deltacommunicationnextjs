@@ -1,0 +1,67 @@
+/* GifContainer.css */
+.gif-container {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #fff; /* Text color */
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+  }
+  
+  .gif-container h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent; /* Background color for text */
+    padding: 20px;
+  }
+  
+  .gifp {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
+  .arrow-button{
+    font-size: 4rem;
+    color: white;
+    border: none;
+    background-color: transparent;
+    animation: 0.4s arrow-waiter ease-in forwards 0.9s;
+  }
+  
+  .arrow-button:hover {
+    cursor: pointer;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 1024px) {
+
+    .gif-container h2 {
+      font-size: 2.4rem;
+      text-align: center;
+    }
+
+    .gif-container {
+      height: 80vh;
+    }
+
+    .gifp {
+      font-size: 1.6rem;
+      margin: 0;
+      text-align: center;
+    }
+  
+
+  }

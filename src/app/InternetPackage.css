@@ -1,0 +1,81 @@
+.InternetPackage{
+  height: 100vh;
+  background-color: rgba(221, 213, 213, 0.2);
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.ServicesHeading {
+  margin: 40px;
+  font-weight: 600;
+  font-size: 3.8rem;
+}
+
+.service {
+  margin: 20px;
+  padding: 60px;
+  height: 50vh;
+  background-color: white;
+}
+
+.service h2 {
+  font-size: 1.4rem;
+}
+
+.needleinitial {
+  height: 10vh
+}
+
+.servicerow {
+  display: flex;
+}
+
+.generalserviceheading {
+  margin-top: 40px;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.signupservice {
+  background-color: rgb(194, 255, 255);
+  padding: 8px;
+  color: black;
+  border-radius: 10px;
+}
+
+.signupservice:hover {
+  background-color: rgb(229, 245, 245, .3);
+}
+
+@media (max-width: 767.98px) {
+
+  .InternetPackage{
+    margin: 0px;
+    height: auto;
+  }
+
+  .servicerow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service{
+    margin: 20px;
+    height: 58vh;
+  }
+
+  .ServicesHeading {
+    font-size: 2.4rem;
+  }
+
+  .generalserviceheading {
+    margin-top: 40px;
+  }
+
+
+}
+
