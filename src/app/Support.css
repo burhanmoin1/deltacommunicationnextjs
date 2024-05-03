@@ -42,7 +42,7 @@
 }
 
 .supportform-button {
-    width: 10vmin;
+    width: auto;
     border-radius: 6px;
     align-self: center;
     font-size: 1.2rem;

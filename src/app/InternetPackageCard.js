@@ -71,7 +71,9 @@ const DeltaInternetCard = () => {
           <h2 className='generalservicespeed'>{service.speed}</h2>
           <h2 className='generalserviceprice'>{service.price}</h2>
           <p className='generalserviceparagraph'>{service.description}</p>
+          <a href='/signup'>
           <button className='signupservice'>Sign Up</button>
+          </a>
       </div>
       ))}
       </div>
