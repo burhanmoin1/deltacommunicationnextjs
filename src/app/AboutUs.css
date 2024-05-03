@@ -2,12 +2,12 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat';
     align-items: center;
     text-align: center;
 }
 
 .aboutusheading {
-    font-family: 'Montserrat';
     margin: 20px;
     font-size: 3rem;
     font-weight: 700;
