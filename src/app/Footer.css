@@ -54,6 +54,7 @@
     .footer-link {
         margin: 4px;
         padding-right: 30px;
+        margin-top: 20px;
         align-self: flex-end;
     }
 
