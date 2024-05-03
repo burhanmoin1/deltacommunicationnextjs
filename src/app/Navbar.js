@@ -15,6 +15,18 @@ import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 function DeltaNavbar() {
+
+  const handleServicesClick = () => {
+    let scrollAmount = 1400;
+    if (window.innerWidth <= 767.98) {
+      scrollAmount = 700;
+    }
+    window.scrollTo({
+      top: window.scrollY + scrollAmount,
+      behavior: 'smooth'
+    });
+  };
+
   const [isOpen, setOpen] = useState(false);
   const handlePhoneClick = () => {
     // Use the tel: protocol to initiate a phone call
@@ -45,13 +57,13 @@ function DeltaNavbar() {
           <Link href="/" className="nav-link">Home</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Nav.Link className='cursor-link'>
-              <Link href="/aboutus" className="nav-link">Services</Link> {/* Add a specific class to the "Home" link */}
+              <Nav onClick={handleServicesClick} className="nav-link">Services</Nav> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Nav.Link className='cursor-link'>
-              <Link href="/support" className="nav-link">Support</Link> {/* Add a specific class to the "Home" link */}
+              <Nav href="/support" className="nav-link">Support</Nav> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Nav.Link className='cursor-link'>
-              <Link href="/aboutus" className="nav-link">About Us</Link> {/* Add a specific class to the "Home" link */}
+              <Nav href="/aboutus" className="nav-link">About Us</Nav> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Link href="/signup">
               <Button variant="dark" className="register-button">

@@ -1,0 +1,14 @@
+.supportcontainer {
+    background-color: rgba(164, 158, 182, 0.25);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.supportheading {
+    font-family: 'Montserrat';
+    margin: 40px;
+    font-size: 3.4rem;
+    font-weight: 700;
+}

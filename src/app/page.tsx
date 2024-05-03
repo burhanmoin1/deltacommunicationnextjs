@@ -2,15 +2,16 @@ import DeltaNavbar from './Navbar';
 import Cablegif from './Cablegif';
 import DeltaInternetCard from './InternetPackageCard';
 import RocketContainer from  './RocketContainer';
-
+import Support from './Support';
 
 export default function Home() {
   return (
     <main>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>      <DeltaNavbar />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>      <DeltaNavbar />
       <Cablegif />
       <RocketContainer />
       <DeltaInternetCard/>
+      <Support />
     </main>
   );
 }
