@@ -55,6 +55,7 @@ const DeltaInternetCard = () => {
 
 
   return (
+    <section id="services">
     <div className='InternetPackage'>
       <h1 className='ServicesHeading'>Our Services</h1>
       <div className='GeneralServices'>
@@ -94,6 +95,7 @@ const DeltaInternetCard = () => {
       </div>
       </div>
     </div>
+    </section>
   );
 };
 

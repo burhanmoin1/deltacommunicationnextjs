@@ -4,13 +4,14 @@
 
 .body {
   overflow-x: hidden;
+  
 }
-
 /* Style the scrollbar track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1; /* Light gray background */
   border-radius: 2px; /* Optional: round the edges */
 }
+
 
 /* Style the scrollbar handle (the draggable part) */
 ::-webkit-scrollbar-thumb {

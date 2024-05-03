@@ -12,6 +12,8 @@
     font-style: italic;
     font-weight: 500;
   }
+
+ 
   
   .gif-container h2 {
     font-weight: bold;
@@ -28,6 +30,7 @@
     background: transparent; /* Background color for text */
     padding: 20px;
   }
+  
   
   .gifp {
     font-size: 1.6rem;

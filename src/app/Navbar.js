@@ -12,30 +12,19 @@ import Link from 'next/link';
 import Hamburger from 'hamburger-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { useRouter } from 'next/navigation';
 
 
 function DeltaNavbar() {
-
-  const handleServicesClick = () => {
-    let scrollAmount = 1400;
-    if (window.innerWidth <= 767.98) {
-      scrollAmount = 700;
-    }
-    window.scrollTo({
-      top: window.scrollY + scrollAmount,
-      behavior: 'smooth'
-    });
-  };
-
   const [isOpen, setOpen] = useState(false);
   const handlePhoneClick = () => {
     // Use the tel: protocol to initiate a phone call
-    window.location.href = 'tel:+923463637743'; // Replace with your phone number
+    window.location.href = 'tel:+923009244672'; // Replace with your phone number
   };
 
   const handleEmailClick = () => {
     // Use the mailto: protocol to open the default email client
-    window.location.href = 'mailto:burhandeltacn@gmail.com'; // Replace with your email address
+    window.location.href = 'mailto:deltacn@gmail.com'; // Replace with your email address
   };
   return (
     <Navbar expand="lg" className="bg-white">
@@ -47,7 +36,7 @@ function DeltaNavbar() {
         <Hamburger
           toggled={isOpen}
           toggle={setOpen}
-          duration={0.2}
+          duration={0.4}
           className="hamburger-icon"
         />
       </Navbar.Toggle>
@@ -57,13 +46,13 @@ function DeltaNavbar() {
           <Link href="/" className="nav-link">Home</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Nav.Link className='cursor-link'>
-              <Nav onClick={handleServicesClick} className="nav-link">Services</Nav> {/* Add a specific class to the "Home" link */}
+              <Link href="/#services" className="nav-link">Services</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Nav.Link className='cursor-link'>
-              <Nav href="/support" className="nav-link">Support</Nav> {/* Add a specific class to the "Home" link */}
+              <Link href="/#support" className="nav-link">Support</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Nav.Link className='cursor-link'>
-              <Nav href="/aboutus" className="nav-link">About Us</Nav> {/* Add a specific class to the "Home" link */}
+              <Link href="/#aboutus" className="nav-link">About Us</Link> {/* Add a specific class to the "Home" link */}
             </Nav.Link>
             <Link href="/signup">
               <Button variant="dark" className="register-button">

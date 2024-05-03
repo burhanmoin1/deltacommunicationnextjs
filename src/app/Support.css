@@ -1,14 +1,85 @@
 .supportcontainer {
     background-color: rgba(164, 158, 182, 0.25);
-    height: 40vh;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-family: 'Montserrat';
 }
 
 .supportheading {
-    font-family: 'Montserrat';
-    margin: 40px;
+    margin: 20px;
     font-size: 3.4rem;
     font-weight: 700;
+}
+
+.contactus{
+    margin: 20px;
+}
+
+.twopartcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-divider {
+    margin: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input,
+.form textarea {
+    margin: 20px;
+    padding: 30px;
+}
+
+.Contact-Information{
+    margin: 20px;
+}
+
+.supportform-button {
+    width: 10vmin;
+    border-radius: 6px;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.supportform-button:hover {
+    background-color: transparent;
+}
+
+.google-map {
+    width: 600px;
+    height: 450px;
+    border: 0;
+  }
+
+@media (max-width: 767.98px) {
+
+    .google-map {
+        width: 100%; /* Make the iframe take the full width of its container */
+        height: 30vh; /* Adjust the height as needed */
+      }
+
+    .twopartcontainer {
+        display: flex;
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .form input,
+    .form textarea
+     {
+        margin: 4px;
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    .supportform-button {
+        width: 24vmin;
+    }
 }

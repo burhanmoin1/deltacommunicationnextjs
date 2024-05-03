@@ -3,6 +3,8 @@ import Cablegif from './Cablegif';
 import DeltaInternetCard from './InternetPackageCard';
 import RocketContainer from  './RocketContainer';
 import Support from './Support';
+import AboutUs from './AboutUs';
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <RocketContainer />
       <DeltaInternetCard/>
       <Support />
+      <AboutUs />
+      <Footer />
     </main>
   );
 }
