@@ -91,6 +91,8 @@ const SignUpForm = () => {
             onChange={handleChange} // Consistent event handler
           >
             <option value="basic">Basic</option>
+            <option value="basic+">Basic+</option>
+            <option value="basic++">Basic++</option>
             <option value="standard">Standard</option>
             <option value="premium">Premium</option>
             <option value="void">Void</option>
