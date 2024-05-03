@@ -51,10 +51,14 @@
         text-align: center;
     }
 
+    .deltatext {
+        margin-top: 40px;
+    }
+
     .footer-link {
         margin: 4px;
         padding-right: 30px;
-        margin-top: 20px;
+        margin-top: 30px;
         align-self: flex-end;
     }
 
