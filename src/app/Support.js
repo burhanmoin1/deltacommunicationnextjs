@@ -25,22 +25,20 @@ const Support = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/complaints', {
-        method: 'POST',
+      const response = await axios.post('/api/complaints', formData, {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
       });
 
       if (response.status === 201) {
-        setSubmissionStatus('success'); // Set submission status to success
+        setSubmissionStatus('success');
       } else {
-        setSubmissionStatus('failure'); // Set submission status to failure
+        setSubmissionStatus('failure');
       }
     } catch (error) {
       console.error('Error sending data:', error);
-      setSubmissionStatus('error'); // Set submission status to error
+      setSubmissionStatus('error');
     }
   };
 
