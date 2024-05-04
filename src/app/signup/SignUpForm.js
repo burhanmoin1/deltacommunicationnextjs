@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import './SignUpForm.css';
+import axios from 'axios';
 
 const SignUpForm = () => {
   const [formData, setFormData] = useState({
@@ -24,12 +25,11 @@ const SignUpForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/signup/', {
-        method: 'POST',
+      const response = await axios.post('/api/signup/', {
+        
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
       });
 
       if (response.status === 201) {
