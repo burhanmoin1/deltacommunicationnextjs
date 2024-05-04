@@ -33,6 +33,10 @@
     font-size: 1.4rem;
 }
 
+.footer-link:hover{
+    opacity: .5;
+}
+
 .deltatext {
     align-self: center;
     font-size: 2rem;
