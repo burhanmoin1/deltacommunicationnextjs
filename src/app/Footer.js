@@ -7,7 +7,9 @@ const Footer = () => {
     return (
         <div className='footer'>
         <div className='innercontent'>
-        <img src={transparentlogo.src} alt='Delta Communication Network' className='delta-footer'/>
+        <a href="/">
+            <img src={transparentlogo.src} alt="Delta Communication Network" className="delta-footer" />
+            </a>
         <Link href="/" className="footer-link">Home</Link> 
            
         <Link href="/#services" className="footer-link">Services</Link>
