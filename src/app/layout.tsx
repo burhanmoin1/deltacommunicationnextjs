@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Delta Communication",
-  description: "Speed like never before",
+  title: "Delta Communication Network - Internet Service Provider",
+  description: "Speed like never before by, internet service provider Karachi, Pakistan.",
 };
 
 export default function RootLayout({
